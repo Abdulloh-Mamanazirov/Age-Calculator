@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fraunces", serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(0, 60, 255), aqua);
+}
+.main {
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* backdrop-filter: blur(36px) saturate(180%);
+    background-color: #0000ff72; */
+  /* background-image: linear-gradient(#00008b0#08b); */
+}
+label{
+    font-size: 18px;
+}
+#calendar{
+    margin-top: 15px;
+    background-color: #08f;
+    border: none;
+    color: #fff;
+    padding:11px 13px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button{
+    background-color: #08f;
+    border: none;
+    color: #fff;
+    padding:16px 15px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+    cursor: grab;
+}
+button:hover{
+    opacity: .9;
+}
+button:active{
+    opacity: .7;
+    cursor: grabbing;
+}
+h1{
+    color: aliceblue;
+}
+h1#date{
+    height: 35px;
+    margin-top: 10px;
+    font-size: 28px;
+    color: #001a8d;
+}
+h2#conc{
+    height: 30px;
+    margin-top: 15px;
+}
+p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+span#yil, span#oy, span#kun{
+    color: #001a8d;
+    font-size: 19px;
+}
